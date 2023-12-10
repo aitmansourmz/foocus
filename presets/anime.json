@@ -8,8 +8,8 @@
             0.5
         ],
         [
-            "animetarotV51",
-            0.5
+            "None",
+            1.0
         ],
         [
             "None",
@@ -30,7 +30,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "1girl, ",
-    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,embedding(easynegative),low detailed hand",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,embedding(aidxlv05_neg),low detailed hand",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Masterpiece",
@@ -46,11 +46,10 @@
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
-        "easynegative": "https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "aidxlv05_neg": "https://civitai.com/api/download/models/195614"
 
     },
     "lora_downloads": {
-        "animetarotV51": "https://civitai.com/api/download/models/28609",
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
     }
 }
