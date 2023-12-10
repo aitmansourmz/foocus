@@ -30,7 +30,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "1girl, ",
-    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,embedding(aidxlv05_neg),low detailed hand",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,(embedding:aidxlv05_neg:1),low detailed hand",(embedding:easynegative:0.9)
     "default_styles": [
         "Fooocus V2",
         "Fooocus Masterpiece",
@@ -46,7 +46,8 @@
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
-        "aidxlv05_neg": "https://civitai.com/api/download/models/195614"
+        "aidxlv05_neg.safetensors": "https://civitai.com/api/download/models/195614"
+        "easynegative.safetensors":"https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
 
     },
     "lora_downloads": {
