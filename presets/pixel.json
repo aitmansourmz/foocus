@@ -1,0 +1,52 @@
+{
+    "default_model": "SDXLPixelArtBeta_v10",
+    "default_refiner": "None",
+    "default_refiner_switch": 1.0,
+    "default_loras": [
+        [
+            "GBA Style SDXL v3",
+            0.5
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 7.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "1girl, ",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,(embedding:aidxlv05_neg:1),low detailed hand",(embedding:easynegative:0.9)
+    "default_styles": [
+        "Fooocus Masterpiece",
+        "SAI Pixel Art",
+        "SAI Enhance",
+    ],
+    "default_aspect_ratio": "896*1152",
+    "checkpoint_downloads": {
+        "SDXLPixelArtBeta_v10": "https://civitai.com/api/download/models/253189",
+    },
+    "embeddings_downloads": {
+        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
+        "aidxlv05_neg.safetensors": "https://civitai.com/api/download/models/195614"
+        "easynegative.safetensors":"https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
+
+    },
+    "lora_downloads": {
+        "GBA Style SDXL v3": "https://civitai.com/api/download/models/207128?type=Model&format=SafeTensor"
+    }
+}
