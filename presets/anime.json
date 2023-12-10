@@ -1,6 +1,6 @@
 {
-    "default_model": "bluePencilXL_v050.safetensors",
-    "default_refiner": "DreamShaper_8_pruned.safetensors",
+    "default_model": "DreamShaper_8_pruned.safetensors",
+    "default_refiner": "bluePencilXL_v050.safetensors",
     "default_refiner_switch": 0.667,
     "default_loras": [
         [
@@ -8,8 +8,8 @@
             0.5
         ],
         [
-            "None",
-            1.0
+            "animetarotV51",
+            0.5
         ],
         [
             "None",
@@ -30,7 +30,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "1girl, ",
-    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,embedding(easynegative),low detailed hand",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Masterpiece",
@@ -45,9 +45,12 @@
         "DreamShaper_8_pruned.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors"
     },
     "embeddings_downloads": {
-        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors"
+        "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
+        "easynegative": "https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
+
     },
     "lora_downloads": {
+        "animetarotV51": "https://civitai.com/api/download/models/28609",
         "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
     }
 }
