@@ -42,7 +42,7 @@
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
-        "aidxlv05_neg.safetensors": "https://civitai.com/api/download/models/195614"
+        "aidxlv05_neg.safetensors": "https://civitai.com/api/download/models/195614",
         "easynegative.safetensors":"https://civitai.com/api/download/models/9208?type=Model&format=SafeTensor&size=full&fp=fp16"
 
     },
