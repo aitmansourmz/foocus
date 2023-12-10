@@ -4,7 +4,7 @@
     "default_refiner_switch": 1.0,
     "default_loras": [
         [
-            "GBA Style SDXL v3",
+            "GBA_Style_SDXL_v3.safetensors",
             0.5
         ],
         [
@@ -47,6 +47,6 @@
 
     },
     "lora_downloads": {
-        "GBA Style SDXL v3": "https://civitai.com/api/download/models/207128?type=Model&format=SafeTensor"
+        "GBA_Style_SDXL_v3.safetensors": "https://civitai.com/api/download/models/207128?type=Model&format=SafeTensor"
     }
 }
