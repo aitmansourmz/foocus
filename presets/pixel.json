@@ -38,7 +38,7 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "SDXLPixelArtBeta_v10": "https://civitai.com/api/download/models/253189",
+        "SDXLPixelArtBeta_v10": "https://civitai.com/api/download/models/253189"
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
