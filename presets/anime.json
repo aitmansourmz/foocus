@@ -1,6 +1,6 @@
 {
-    "default_model": "animeIllustDiffusion_v052.safetensors",
-    "default_refiner": "DreamShaper_8_pruned.safetensors",
+    "default_model": "bluePencilXL_v200.safetensors",
+    "default_refiner": "sdxlYamersAnimeUltra_ysAnimeV5VAE.safetensors",
     "default_refiner_switch": 0.667,
     "default_loras": [
         [
@@ -41,8 +41,8 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "animeIllustDiffusion_v052.safetensors": "https://civitai.com/api/download/models/238771?type=Model&format=SafeTensor&size=pruned&fp=bf16",
-        "DreamShaper_8_pruned.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/DreamShaper_8_pruned.safetensors"
+        "bluePencilXL_v200.safetensors": "https://civitai.com/api/download/models/245614?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "sdxlYamersAnimeUltra_ysAnimeV5VAE.safetensors": "https://civitai.com/api/download/models/252301?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {
         "unaestheticXLv31.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/unaestheticXLv31.safetensors",
