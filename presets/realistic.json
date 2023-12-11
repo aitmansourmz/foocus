@@ -1,7 +1,7 @@
 {
     "default_model": "realvisxlV20_v20Bakedvae.safetensors",
-    "default_refiner": "epicrealism_naturalSinRC1VAE.safetensors",
-    "default_refiner_switch": 0.4,
+    "default_refiner": "None",
+    "default_refiner_switch": 1.0,
     "default_loras": [
         [
             "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
@@ -9,7 +9,7 @@
         ],
         [
             "epiCRealismHelper.safetensors",
-            0.5
+            0.6
         ],
         [
             "None",
@@ -29,16 +29,14 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "(a detailed full body RAW photo of a 20yo woman), (masterpiece:1.2), (best quality:1.4), (photorealistic:1.4), ultra detailed, sharp focus, cinematic lighting, detailed beautiful face, detailed skin texture, flirting with viewer",
-    "default_prompt_negative": "unrealistic, epiCPhoto-neg, SkinPerfection_NegV15, BadDream, UnrealisticDream, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, ugly,",
+    "default_prompt": "(a detailed full body RAW photo), (masterpiece:1.2), (best quality:1.4), (photorealistic:1.4), ultra detailed, great lighting, detailed beautiful face, detailed skin texture, flirting with viewer",
+    "default_prompt_negative": "((cartoon)), 3d, (((disfigured))), (bad art), (((deformed))), ((extra limbs)), blurry, (((duplicate))), ((morbid)), ((mutilated)), [out of frame], body out of frame, extra fingers, mutated hands, poorly drawn hands, ((poorly drawn face)), (((mutation))), ((ugly)), ((bad anatomy)), (((bad proportions))), cloned face, gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), (fused fingers), (too many fingers), (((long neck))), Photoshop, video game, tiling, poorly drawn feet, mutated, disfigured, cross-eye, 3d render, (badhands), fat, thick, big ass, thick ass, bad-hands-5, bad teeth, logo, watermark, weird nipples, twisted nipples, deformed nipples, (flat nipples:1.8), low detail clothes, deformed face, extra toes, too many toes, too many limbs, missing fingers, broken fingers, broken wrist, 3 legs, deformed iris, deformed pupils, cropped, worst quality, lowres, bad hands, text, fewer digits, cropped, cropped head, bad feet, bad mouth, unrealistic nails, unrealistic eyes, unrealistic nose, extra limb, missing limb, floating limbs, disconnected limbs, malformed hands, oversaturated, distorted hands, amputation, missing hands, obese, doubled face, double hands, deformed body, deformed hands, deformed feet, deformed legs, different nipples, bad nipples, ugly nipples, drawing, extra breasts, extra calf, extra ears, extra eyes, extra feet, extra heads, extra knee, extra shoes, extra thighs, extra limb, fake face, fewer digits, grainy, short arm, head out of frame, illustration, irregular, lopsided, malformed, messy drawing, misshapen, underexposed,overexposed,beginner, amateur, bad-picture-chill-75v, esotropia, exotropia, hypertropia,hypotropia,strabismus, chubby, fat ,backlight ,muscular, creepy, oversaturated, choker easynegative",
     "default_styles": [
         "Fooocus Photograph"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realvisxlV20_v20Bakedvae.safetensors": "https://civitai.com/api/download/models/169921?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        "epicrealism_naturalSinRC1VAE.safetensors": "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    },
+        "realvisxlV20_v20Bakedvae.safetensors": "https://civitai.com/api/download/models/169921?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
