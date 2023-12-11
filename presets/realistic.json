@@ -1,6 +1,6 @@
 {
-    "default_model": "realismEngineSDXL_v20.safetensors",
-    "default_refiner": "realisticVisionV60B1_v60B1VAE.safetensors",
+    "default_model": "realvisxlV20_v20Bakedvae.safetensors",
+    "default_refiner": "epicrealism_naturalSinRC1VAE.safetensors",
     "default_refiner_switch": 0.667,
     "default_loras": [
         [
@@ -29,8 +29,8 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, ugly,",
+    "default_prompt": "(a detailed full body RAW photo of a 20yo woman), (masterpiece:1.2), (best quality:1.4), (photorealistic:1.4), ultra detailed, sharp focus, cinematic lighting, detailed beautiful face, detailed skin texture, flirting with viewer",
+    "default_prompt_negative": "unrealistic, epiCPhoto-neg, SkinPerfection_NegV15, BadDream, UnrealisticDream, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, ugly,",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Photograph",
@@ -38,8 +38,8 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realismEngineSDXL_v20.safetensors": "https://civitai.com/api/download/models/258380?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-        "realisticVisionV60B1_v60B1VAE.safetensors": "https://civitai.com/api/download/models/245598?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "realvisxlV20_v20Bakedvae.safetensors": "https://civitai.com/api/download/models/169921?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+        "epicrealism_naturalSinRC1VAE.safetensors": "https://civitai.com/api/download/models/143906?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
