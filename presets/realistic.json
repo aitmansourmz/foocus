@@ -16,12 +16,12 @@
             0.5
         ],
         [
-            "happy.safetensors",
-            0.1
+            "None",
+            1.0
         ],
         [
-            "epiCRealLife.safetensors",
-            0.3
+            "None",
+            1.0
         ]
     ],
     "default_cfg_scale": 3.0,
@@ -32,9 +32,7 @@
     "default_prompt": "(a detailed full body RAW photo of a 20yo woman), (masterpiece:1.2), (best quality:1.4), (photorealistic:1.4), ultra detailed, sharp focus, cinematic lighting, detailed beautiful face, detailed skin texture, flirting with viewer",
     "default_prompt_negative": "unrealistic, epiCPhoto-neg, SkinPerfection_NegV15, BadDream, UnrealisticDream, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, ugly,",
     "default_styles": [
-        "Fooocus V2",
-        "Fooocus Photograph",
-        "Fooocus Negative"
+        "Fooocus Photograph"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
@@ -45,8 +43,6 @@
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
         "RSERomantic_RSESofiko_RSEEmma-v1.safetensors": "https://civitai.com/api/download/models/30177?type=Model&format=SafeTensor&size=full&fp=fp16",
-        "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor",
-        "happy.safetensors": "https://civitai.com/api/download/models/246425?type=Model&format=SafeTensor",
-        "epiCRealLife.safetensors": "https://civitai.com/api/download/models/156286?type=Model&format=SafeTensor"
+        "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor"
     }
 }
