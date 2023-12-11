@@ -37,7 +37,8 @@
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
         "realvisxlV20_v20Bakedvae.safetensors": "https://civitai.com/api/download/models/169921?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    "embeddings_downloads": {}
+    },
+    "embeddings_downloads": {},
     "lora_downloads": {
         "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
         "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor"
