@@ -12,8 +12,8 @@
             0.6
         ],
         [
-            "None",
-            1.0
+            "inkSketch_V1.5.safetensors",
+            0.2
         ],
         [
             "None",
@@ -44,7 +44,8 @@
         "aidxlv05_neg.safetensors": "https://civitai.com/api/download/models/195614"
     },
     "lora_downloads": {
-        "GlowingNightmare.safetensors": "https://civitai.com/api/download/models/139570?type=Model&format=SafeTensor"
-        "tendertroupe_v2.2.safetensors": "https://civitai.com/api/download/models/50148"
+        "GlowingNightmare.safetensors": "https://civitai.com/api/download/models/139570?type=Model&format=SafeTensor",
+        "tendertroupe_v2.2.safetensors": "https://civitai.com/api/download/models/50148",
+        "inkSketch_V1.5.safetensors": "https://civitai.com/api/download/models/105284"
     }
 }
