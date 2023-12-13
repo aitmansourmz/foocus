@@ -1,11 +1,11 @@
 {
-    "default_model": "bluePencilXL_v200.safetensors",
-    "default_refiner": "sdxlYamersAnimeUltra_ysAnimeV5VAE.safetensors",
-    "default_refiner_switch": 0.667,
+    "default_model": "sdxlYamersAnimeUltra_ysAnimeV5VAE.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 1.0,
     "default_loras": [
         [
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.5
+            "GlowingNightmare.safetensors",
+            0.8
         ],
         [
             "None",
@@ -29,19 +29,14 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "1girl, ",
-    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,(embedding:aidxlv05_neg:1),low detailed hand",
+    "default_prompt": "GlowingNightmare, woman wearing Holographic iridescent leggings with neon patterns, smile, neon colors, glowing || masterpiece, perfect quality, sharp focus, shallow depth of field, 8k ",
+    "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,(embedding:aidxlv05_neg:1),low detailed hand, blurry, hazy, low resolution, worst quality, signature, watermark,  (bad anatomy, badhandv4, bad proportions), simple background",
     "default_styles": [
-        "Fooocus V2",
-        "Fooocus Masterpiece",
         "SAI Anime",
-        "SAI Digital Art",
-        "SAI Enhance",
         "SAI Fantasy Art"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "bluePencilXL_v200.safetensors": "https://civitai.com/api/download/models/245614?type=Model&format=SafeTensor&size=pruned&fp=fp16",
         "sdxlYamersAnimeUltra_ysAnimeV5VAE.safetensors": "https://civitai.com/api/download/models/252301?type=Model&format=SafeTensor&size=full&fp=fp16"
     },
     "embeddings_downloads": {
@@ -49,6 +44,6 @@
         "aidxlv05_neg.safetensors": "https://civitai.com/api/download/models/195614"
     },
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "GlowingNightmare.safetensors": "https://civitai.com/api/download/models/139570?type=Model&format=SafeTensor"
     }
 }
