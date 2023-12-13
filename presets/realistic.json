@@ -1,5 +1,5 @@
 {
-    "default_model": "dreamshaperXL_turboDpmppSDE.safetensors",
+    "default_model": "realvisxlV20_v20Bakedvae.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 1.0,
     "default_loras": [
@@ -36,7 +36,7 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "dreamshaperXL_turboDpmppSDE.safetensors": "https://civitai.com/api/download/models/251662"
+        "realvisxlV20_v20Bakedvae.safetensors": "https://civitai.com/api/download/models/169921?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
