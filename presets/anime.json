@@ -29,11 +29,11 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "GlowingNightmare, woman wearing Holographic iridescent leggings with neon patterns, smile, neon colors, glowing || masterpiece, perfect quality, sharp focus, shallow depth of field, 8k ",
+    "default_prompt": "GlowingNightmare, smile, neon colors, gorgeous, glowing || masterpiece, perfect quality, shallow depth of field, 8k,  ((best quality)), Ultra detailed, neon, cute youthful face, professional photo 4k, high resolution, high detail, lines, (ultra detailed), hand draw style, Comic style, illustration, line art style, illustrated cowboy, high energy, UHD, dynamic lighting, dynamic pose,",
     "default_prompt_negative": "(embedding:unaestheticXLv31:0.8), low quality, watermark,(embedding:aidxlv05_neg:1),low detailed hand, blurry, hazy, low resolution, worst quality, signature, watermark,  (bad anatomy, badhandv4, bad proportions), simple background",
     "default_styles": [
-        "SAI Anime",
-        "SAI Fantasy Art"
+        "SAI Line Art",
+        "SAI Comic Book"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
