@@ -1,5 +1,5 @@
 {
-    "default_model": "realvisxlV20_v20Bakedvae.safetensors",
+    "default_model": "dreamshaperXL_turboDpmppSDE.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 1.0,
     "default_loras": [
@@ -12,8 +12,8 @@
             0.3
         ],
         [
-            "epiCRealLife.safetensors",
-            0.2
+            "None",
+            1.0
         ],
         [
             "None",
@@ -30,19 +30,17 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "(a detailed full body RAW photo), (masterpiece:1.2), (best quality:1.4), (photorealistic:1.4), ultra detailed, great lighting, detailed beautiful face, detailed skin texture, flirting with viewer",
-    "default_prompt_negative": "drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly, 3d render, (bokeh:1.3), (3d render:1.1), glossy, watermark",
+    "default_prompt_negative": "drawing, painting, crayon, sketch, graphite, impressionist, blurry, soft, deformed, ugly, 3d render, (bokeh:1.3), (3d render:1.1), glossy, watermark",
     "default_styles": [
         "Fooocus Photograph"
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realvisxlV20_v20Bakedvae.safetensors": "https://civitai.com/api/download/models/169921?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "dreamshaperXL_turboDpmppSDE.safetensors": "https://civitai.com/api/download/models/251662"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor",
-        "realistic_film_photography.safetensors": "https://civitai.com/api/download/models/170949?type=Model&format=SafeTensor",
-        "epiCRealLife.safetensors": "https://civitai.com/api/download/models/156286?type=Model&format=SafeTensor"
-        
+        "realistic_film_photography.safetensors": "https://civitai.com/api/download/models/170949?type=Model&format=SafeTensor"
     }
 }
