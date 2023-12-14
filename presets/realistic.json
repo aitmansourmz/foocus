@@ -4,15 +4,15 @@
     "default_refiner_switch": 1.0,
     "default_loras": [
         [
-            "Neons.safetensors",
-            0.4
+            "realistic_film_photography.safetensors",
+            0.5
         ],
         [
             "epiCRealismHelper.safetensors",
             1.0
         ],
         [
-            "None",
+            "epiCRealLife.safetensors",
             1.0
         ],
         [
@@ -41,6 +41,8 @@
     "embeddings_downloads": {},
     "lora_downloads": {
         "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945?type=Model&format=SafeTensor",
-        "Neons.safetensors": "https://civitai.com/api/download/models/20014"
+        "realistic_film_photography.safetensors": "https://civitai.com/api/download/models/170949?type=Model&format=SafeTensor",
+        "epiCRealLife.safetensors": "https://civitai.com/api/download/models/156286?type=Model&format=SafeTensor"
+        
     }
 }
